@@ -22,10 +22,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[400],
+      backgroundColor: const Color.fromARGB(255, 102, 117, 187),
       body: Center(
         child: Text(
-          'IDS Gallery',
+          'Photo Gallery',
           style: TextStyle(
             fontSize: 48,
             fontWeight: FontWeight.bold,

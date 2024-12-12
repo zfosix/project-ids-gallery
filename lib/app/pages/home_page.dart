@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Galeri Ponsel',
+          'Gallery on Mobile Phone',
           style: TextStyle(fontWeight: FontWeight.w600),
         ),
         centerTitle: true,
